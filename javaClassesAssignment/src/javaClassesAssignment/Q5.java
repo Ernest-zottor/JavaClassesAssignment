@@ -46,7 +46,7 @@ public class Q5 {
 		Complex complexNumb2 = new Complex(real2, img2);
 		Complex complexNumb = new Complex();
 		Complex add = complexNumb.sum(complexNumb1, complexNumb2);
-		Complex divide = add.divide(complexNumb1, complexNumb2);
+		Complex divide = complexNumb.divide(complexNumb1, complexNumb2);
 		
 		System.out.print("Addition of (" +real1 +" + "+ img1+ "i) and ("+ real2+ " + "+ img2+ "i) equals ");
 		System.out.println(add.real + " + " + add.img+ "i\n");
